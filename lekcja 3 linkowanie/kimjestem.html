@@ -1,0 +1,104 @@
+<!-- <link rel="stylesheet" - podpiecie zew arkusza css -->
+<!-- kurs 3 skonczylem na 28:20 -->
+<!-- <i class="icon-youtube"></i> - TAK WSTAWIAMY IKONY Z NP FONTELLO, trzeba podpiąć cssa wcześniej pobranego, to słowo icon chyba musi być -->
+<!-- żeby zmienić np wielkość tej ikony to trzeba to zrobić w pliku fontello.css, przykład: -->
+<!-- .icon-youtube:before { content: '\e800'; font-size: 76px; margin-top: 25px; } -->
+<!-- skonczylem na 1:12:40 html3-->
+<!-- naprawa linków dla przyjaznych adresów: zamiast <a href="index.html" daje <a href="zatrudnij-programiste-webowego", wyrazy łączone sa myslnikami -->
+<!-- podpinanie pliku java script odbywa się poprzez tag <script>, samo podpiecnie nie wystarczy, trzeba go wywołać poprzez atrybut onload sekcji body, <body onload="odliczanie();">, odliczanie to nazwa funkcji -->
+<!-- normalnie tak sie nie robi, ale to pierwsze kursy -->
+<!DOCTYPE HTML>
+<html lang=pl>
+<head>
+	<meta charset="utf-8" />
+	<title>Jan Kowalski</title>
+	<meta name="description" content="stworzenie stron www" />
+	<meta name="keywords" content="html, css, www, web, tworzenie stron" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&amp;subset=latin-ext" rel="stylesheet" type="text/css">
+	
+	<script src="timer.js"></script>
+	
+</head>
+
+<body onload="odliczanie();">
+
+	<div id="container">
+	
+		<div class="rectangle">
+			<div id="logo"><a href="zatrudnij-programiste-webowego" class="tilelinkhtml5">Jan Kowalski</a></div>
+			<div id="zegar">12:00:00</div>
+			<div style="clear: both;"></div>
+		</div>
+		
+		<div class="square">
+			<div class="tile1">
+				<a href="kim-jestem" class="tilelink">
+					<i class="icon-user-female"></i><br />Kim jestem...
+				</a>
+			</div>
+			<a href="oferta-tworzenie-stron-www oferta" class="tilelinkhtml5">
+				<div class="tile1">
+					<i class="icon-laptop"></i><br /> Oferta...
+				</div>
+			</a>
+			<div style="clear: both;"></div>
+			
+			<div class="tile2">
+				<a href="cv-programista-php-javascript" class="tilelink">
+					<i class="icon-id-card-o"></i><br />CV
+				</a>
+			</div>
+			<div class="tile3">
+				<a href="kontakt-programista-php" class="tilelink">
+					<i class="icon-mail-alt"></i><br />Kontakt
+				</a>
+			</div>
+			<div style="clear: both;"></div>
+			
+			<div class="tile4">
+				<i>Talk is cheap, Show me the code!</i><br />-Linus Torvalds
+			</div>
+		</div>
+		
+		<div class="square">
+			<div class="tile5">
+				Kim Jestem <br /><br />
+				Tutaj sa informacje na temat tego kim jestem.
+			</div>
+			<div class="yt">
+				<a href="https://www.youtube.com/" class="sociallink" target="_blank">
+					<i class="icon-youtube"></i>
+				</a>
+			</div>
+			<div class="fb">
+				<a href="https://pl-pl.facebook.com/" class="sociallink" target="_blank">
+					<i class="icon-facebook-rect"></i>
+				</a>
+			</div>
+			<div class="gplus">
+				<a href="https://plus.google.com/" class="sociallink" target="_blank">
+					<i class="icon-gplus"></i>
+				</a>
+			</div>
+			<div class="tw">
+				<a href="https://twitter.com/" class="sociallink" target="_blank">
+					<i class="icon-twitter-bird"></i>
+				</a>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+		<div style="clear: both;"></div>
+		
+		<div class="rectangle">
+			2018 &copy - MK<br />
+			<i class="icon-mail"></i><br/>email@email.com
+		</div>
+	</div>
+	
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Seriale</title>
+	<meta name="description" content="opis" />
+	<meta name="keywords" content="klucze" />
+	<meta http-equiv="X-UA-Compatibile" content="IE=edge,chrome=1" />
+	
+	<!-- # oznacza indentyfikator -->
+	<style>
+		#container
+		{
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		#logo
+		{
+			background-color: black;
+			color: white;
+			text-align: center;
+			padding: 15px;
+		}
+		
+		#nav
+		{
+			float: left;
+			background-color: lightgray;
+			width: 120px;
+			min-height: 620px;
+			padding: 10px;
+		}
+		
+		#content
+		{
+			float: left;
+			padding: 20px;
+			width: 675px;
+			<!-- 29:30 -->
+		}
+		
+		#ad
+		{
+			float: left;
+			width: 125px;
+			min-height: 620px;
+			padding: 10px;
+			background-color: lightgray;
+		}
+		
+		#footer
+		{
+			clear: both;
+			background-color: black;
+			color: white;
+			text-align: center;
+			padding: 20px;
+		}
+		
+	</style>
+	
+</head>
+
+<body>
+<!-- domyslnie divy ustawiaja sie jeden pod drugim, trzeba dodać float: left; a na koniec clear:both; -->
+<!-- można dodać pustego diva tylko z clear: both; -->
+	<div id="container">
+		
+		<div id="logo">
+			<h1>seriale</h1>
+		</div>
+		
+		<div id="nav">
+			Dr House
+			Miodowe Lata
+			Z archiwum X
+		</div>
+		
+		<div id="content">
+			Opis serialu
+		</div>
+		
+		<div id="ad">
+			<img src="img/ad2.jpg" />
+		</div>
+		
+		<div id="footer">
+			Seriale &copy
+			<!-- encja html -->
+		</div>
+		
+	</div>
+
+</body>
+
+
+</html>
